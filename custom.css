@@ -1,10 +1,29 @@
-/* Header buttons - make them rounded and smaller */
+/* Header buttons - make them rounded and beautiful */
 .header-buttons .btn {
   border-radius: 20px !important;
   padding: 8px 16px !important;
   font-family: inherit !important;
   font-weight: inherit !important;
   font-size: 14.5px !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 2px 4px rgba(70, 48, 210, 0.3) !important;
+  border: 2px solid #4630d2 !important;
+  background: linear-gradient(135deg, #4630d2 0%, #5a42e5 100%) !important;
+  color: #ffffff !important;
+}
+
+/* Hover effect for header buttons */
+.header-buttons .btn:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 12px rgba(70, 48, 210, 0.4) !important;
+  background: linear-gradient(135deg, #5a42e5 0%, #6e54f0 100%) !important;
+  border-color: #5a42e5 !important;
+}
+
+/* Active state for header buttons */
+.header-buttons .btn:active {
+  transform: translateY(0) !important;
+  box-shadow: 0 2px 4px rgba(70, 48, 210, 0.3) !important;
 }
 
 /* Fix call us section alignment and size */
