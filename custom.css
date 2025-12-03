@@ -376,16 +376,20 @@
   background-color: transparent !important;
 }
 
-/* Fix for the purple header background - make it fit text content */
-table[style*="background-color: rgb(67, 48, 197)"],
+/* Fix for the purple header background - center the element with proper width */
+table[style*="background-color: rgb(67, 48, 197)"] {
+  background-color: #4630d2 !important;
+  width: fit-content !important;
+  margin: 0 auto !important;
+  display: table !important;
+}
+
 td[style*="background-color: rgb(67, 48, 197)"] {
   background-color: #4630d2 !important;
   width: fit-content !important;
-  display: inline-block !important;
-  min-width: auto !important;
-  padding: 8px 16px !important;
-  border-radius: 8px !important;
   margin: 0 auto !important;
+  display: block !important;
+  text-align: center !important;
 }
 
 /* Center the content inside purple background */
