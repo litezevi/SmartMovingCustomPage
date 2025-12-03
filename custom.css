@@ -15,6 +15,7 @@
 /* Align call icon with buttons */
 .call-us--btn {
   align-self: center !important;
+  transform: translateY(3px) !important;
 }
 
 /* Align header items by center */
