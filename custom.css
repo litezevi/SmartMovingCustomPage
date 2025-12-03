@@ -227,6 +227,55 @@
   font-weight: 600 !important;
 }
 
+/* Add type labels to right card elements */
+.text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter:nth-child(1)::before {
+  content: "Move size:" !important;
+  font-weight: 600 !important;
+  color: #334155 !important;
+  margin-right: 8px !important;
+}
+
+.text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter:nth-child(2)::before {
+  content: "Volume:" !important;
+  font-weight: 600 !important;
+  color: #334155 !important;
+  margin-right: 8px !important;
+}
+
+.text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter:nth-child(3)::before {
+  content: "Minimum:" !important;
+  font-weight: 600 !important;
+  color: #334155 !important;
+  margin-right: 8px !important;
+}
+
+.text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter:nth-child(4)::before {
+  content: "Crew:" !important;
+  font-weight: 600 !important;
+  color: #334155 !important;
+  margin-right: 8px !important;
+}
+
+.text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter:nth-child(5)::before {
+  content: "Estimate type:" !important;
+  font-weight: 600 !important;
+  color: #334155 !important;
+  margin-right: 8px !important;
+}
+
+.text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter:nth-child(6)::before {
+  content: "Protection:" !important;
+  font-weight: 600 !important;
+  color: #334155 !important;
+  margin-right: 8px !important;
+}
+
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .d-flex.flex-md-row.flex-column.w-100.justify-content-between.align-items-center.sm-text-white-600 {
