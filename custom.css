@@ -364,10 +364,11 @@
 
 .salesperson-info--phone a,
 .customer-info--phone,
+.customer-info--email,
 .location-property-info {
   color: #475569 !important;
   font-size: 14px !important;
-  font-weight: 500 !important;
+  font-weight: 600 !important;
 }
 
 /* Remove default bg-secondary background */
