@@ -185,11 +185,13 @@
   flex: 0 0 auto !important;
   text-align: right !important;
   padding: 24px !important;
-  background: linear-gradient(135deg, #4630d2, #5a42e5) !important;
+  background: rgba(255, 255, 255, 0.8) !important;
   border-radius: 12px !important;
-  color: white !important;
+  color: #000 !important;
   min-width: 200px !important;
-  box-shadow: 0 8px 24px rgba(70, 48, 210, 0.25) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+  border-left: 4px solid #4630d2 !important;
+  backdrop-filter: blur(5px) !important;
 }
 
 /* Price highlight */
@@ -197,9 +199,8 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
   font-size: 28px !important;
   font-weight: 800 !important;
-  color: white !important;
+  color: #4630d2 !important;
   margin-bottom: 16px !important;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
 }
 
 /* Service details */
@@ -207,14 +208,14 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
   font-size: 13px !important;
   font-weight: 400 !important;
-  color: rgba(255, 255, 255, 0.9) !important;
+  color: #475569 !important;
   margin-bottom: 6px !important;
   line-height: 1.4 !important;
 }
 
 /* Estimate type highlight */
 .text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter span {
-  color: #fbbf24 !important;
+  color: #4630d2 !important;
   font-weight: 600 !important;
 }
 
