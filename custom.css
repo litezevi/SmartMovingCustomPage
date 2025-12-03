@@ -308,3 +308,69 @@
     font-size: 24px !important;
   }
 }
+
+/* Info cards styling - matching banner design */
+.your-info {
+  background: rgba(255, 255, 255, 0.8) !important;
+  border-radius: 12px !important;
+  border-left: 4px solid #4630d2 !important;
+  backdrop-filter: blur(5px) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.3s ease !important;
+}
+
+.your-info:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Location cards styling */
+.location {
+  background: rgba(255, 255, 255, 0.8) !important;
+  border-radius: 12px !important;
+  border-left: 4px solid #4630d2 !important;
+  backdrop-filter: blur(5px) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.3s ease !important;
+  margin: 0 8px !important;
+}
+
+.location:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Card headers styling */
+.salesperson-info--title,
+.customer-info--header,
+.location .sm-text-branding-title-color {
+  color: #4630d2 !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  margin-bottom: 8px !important;
+  letter-spacing: 0.5px !important;
+  text-transform: uppercase !important;
+}
+
+/* Card content styling */
+.salesperson-info--name,
+.customer-info--name,
+.location-description {
+  color: #334155 !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  margin-bottom: 4px !important;
+}
+
+.salesperson-info--phone a,
+.customer-info--phone,
+.location-property-info {
+  color: #475569 !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+
+/* Remove default bg-secondary background */
+.bg-secondary {
+  background-color: transparent !important;
+}
