@@ -1,0 +1,6 @@
+/* Header buttons - make them rounded and smaller */
+.header-buttons .btn {
+  border-radius: 20px !important;
+  padding: 8px 16px !important;
+  font-size: 14px !important;
+}
