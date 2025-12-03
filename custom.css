@@ -12,6 +12,16 @@
   align-items: center !important;
 }
 
+/* Align call icon with buttons */
+.call-us--btn {
+  align-self: center !important;
+}
+
+/* Align header items by center */
+.app-header {
+  align-items: center !important;
+}
+
 .call-us--text {
   font-size: 18px !important;
   margin-bottom: 0 !important;
@@ -25,9 +35,9 @@
 
 /* Make call icon bigger and wider */
 .call-us--btn .mat-icon {
-  font-size: 24px !important;
-  width: 24px !important;
-  height: 24px !important;
+  font-size: 32px !important;
+  width: 32px !important;
+  height: 32px !important;
 }
 
 /* Align header items properly */
