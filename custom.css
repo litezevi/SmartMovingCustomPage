@@ -54,10 +54,26 @@
 }
 
 /* Make call icon bigger and wider */
+.call-us--btn {
+  transition: all 0.3s ease !important;
+}
+
 .call-us--btn .mat-icon {
   font-size: 32px !important;
   width: 32px !important;
   height: 32px !important;
+}
+
+.call-us--btn:hover {
+  transform: translateY(-2px) !important;
+}
+
+.call-us--number a {
+  transition: all 0.3s ease !important;
+}
+
+.call-us--number a:hover {
+  transform: translateY(-2px) !important;
 }
 
 /* Align header items properly */
