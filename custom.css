@@ -375,3 +375,26 @@
 .bg-secondary {
   background-color: transparent !important;
 }
+
+/* Fix for the purple header background - make it fit text content */
+table[style*="background-color: rgb(67, 48, 197)"],
+td[style*="background-color: rgb(67, 48, 197)"] {
+  background-color: #4630d2 !important;
+  width: fit-content !important;
+  display: inline-block !important;
+  min-width: auto !important;
+  padding: 8px 16px !important;
+  border-radius: 8px !important;
+  margin: 0 auto !important;
+}
+
+/* Center the content inside purple background */
+table[style*="background-color: rgb(67, 48, 197)"] div,
+td[style*="background-color: rgb(67, 48, 197)"] div {
+  text-align: center !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
