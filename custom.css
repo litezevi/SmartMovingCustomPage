@@ -2,5 +2,35 @@
 .header-buttons .btn {
   border-radius: 20px !important;
   padding: 8px 16px !important;
-  font-size: 14px !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  font-size: 14.5px !important;
+}
+
+/* Fix call us section alignment and size */
+.call-us {
+  align-items: center !important;
+}
+
+.call-us--text {
+  font-size: 18px !important;
+  margin-bottom: 0 !important;
+  font-weight: 600 !important;
+}
+
+.call-us--number {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+/* Make call icon bigger and wider */
+.call-us--btn .mat-icon {
+  font-size: 24px !important;
+  width: 24px !important;
+  height: 24px !important;
+}
+
+/* Align header items properly */
+.app-header {
+  align-items: center !important;
 }
