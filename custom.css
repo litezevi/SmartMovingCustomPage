@@ -81,24 +81,172 @@
   align-items: center !important;
 }
 
-/* Make banner logo 2x larger (3x - 1.5x = 1.5x smaller) */
-.banner--logo .brand img {
-  width: 200% !important;
-  height: auto !important;
-  max-width: none !important;
-  transform: scale(2) !important;
-  transform-origin: top left !important;
+/* Premium Banner Section Redesign */
+.d-flex.flex-md-row.flex-column.w-100.justify-content-between.align-items-center.sm-text-white-600 {
+  background: linear-gradient(135deg, #f8fafc 0%, #e1f5fe 100%) !important;
+  border-radius: 16px !important;
+  padding: 32px !important;
+  margin: 24px 0 !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+  border: 1px solid rgba(70, 48, 210, 0.1) !important;
+  backdrop-filter: blur(10px) !important;
 }
 
-/* Adjust banner logo container to handle larger logo */
+/* Logo section - move left and optimize */
 .banner--logo {
-  overflow: visible !important;
-  position: relative !important;
+  flex: 0 0 auto !important;
+  margin-right: 40px !important;
+  margin-bottom: 0 !important;
+}
+
+.banner--logo .brand img {
+  width: 180px !important;
+  height: auto !important;
+  max-width: none !important;
+  transform: none !important;
+  filter: drop-shadow(0 2px 8px rgba(70, 48, 210, 0.2)) !important;
 }
 
 .banner--logo .brand {
   overflow: visible !important;
   position: relative !important;
-  width: 50% !important;
-  height: 100px !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+/* Estimate info container - move right and style */
+.banner--info-container {
+  flex: 1 !important;
+  padding: 24px 32px !important;
+  background: rgba(255, 255, 255, 0.8) !important;
+  border-radius: 12px !important;
+  border-left: 4px solid #4630d2 !important;
+  backdrop-filter: blur(5px) !important;
+}
+
+/* Estimate header with badge */
+.banner--header {
+  margin-bottom: 16px !important;
+}
+
+.banner--header .d-flex {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  color: #4630d2 !important;
+  margin-bottom: 8px !important;
+  letter-spacing: -0.5px !important;
+}
+
+/* Elegant badge styling */
+.badge.rounded-pill.ms-2.sm-bg-warning {
+  background: linear-gradient(135deg, #f59e0b, #f97316) !important;
+  color: white !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  padding: 4px 12px !important;
+  border-radius: 20px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3) !important;
+  margin-left: 12px !important;
+  vertical-align: middle !important;
+}
+
+/* Your Moving Estimate - subtitle */
+.banner--body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  color: #64748b !important;
+  margin-bottom: 20px !important;
+  letter-spacing: 0.2px !important;
+}
+
+/* Date and time info */
+.banner--footer.sm-text-white {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  color: #475569 !important;
+  margin-bottom: 8px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.banner--footer-description {
+  font-weight: 600 !important;
+  color: #334155 !important;
+  margin-right: 6px !important;
+}
+
+/* Pricing section - right side */
+.text-end.pt-1.pt-md-0 {
+  flex: 0 0 auto !important;
+  text-align: right !important;
+  padding: 24px !important;
+  background: linear-gradient(135deg, #4630d2, #5a42e5) !important;
+  border-radius: 12px !important;
+  color: white !important;
+  min-width: 200px !important;
+  box-shadow: 0 8px 24px rgba(70, 48, 210, 0.25) !important;
+}
+
+/* Price highlight */
+.text-end.pt-1.pt-md-0 .banner--body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  font-size: 28px !important;
+  font-weight: 800 !important;
+  color: white !important;
+  margin-bottom: 16px !important;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Service details */
+.text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  margin-bottom: 6px !important;
+  line-height: 1.4 !important;
+}
+
+/* Estimate type highlight */
+.text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter span {
+  color: #fbbf24 !important;
+  font-weight: 600 !important;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .d-flex.flex-md-row.flex-column.w-100.justify-content-between.align-items-center.sm-text-white-600 {
+    padding: 20px !important;
+    margin: 16px 0 !important;
+  }
+  
+  .banner--logo {
+    margin-right: 0 !important;
+    margin-bottom: 20px !important;
+    text-align: center !important;
+  }
+  
+  .banner--info-container {
+    padding: 20px !important;
+    margin-bottom: 20px !important;
+  }
+  
+  .text-end.pt-1.pt-md-0 {
+    text-align: center !important;
+    min-width: auto !important;
+  }
+  
+  .banner--header .d-flex {
+    font-size: 20px !important;
+    justify-content: center !important;
+  }
+  
+  .text-end.pt-1.pt-md-0 .banner--body {
+    font-size: 24px !important;
+  }
 }
