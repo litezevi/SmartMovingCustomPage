@@ -4,6 +4,7 @@
 - Header section redesign with custom styling
 - Button improvements and hover effects
 - Call-to-action elements enhancement
+- Purple header element centering and width optimization
 
 ## Recent Changes
 - **Header Buttons**: Redesigned "MANAGE INVENTORY" and "SIGN ESTIMATE" buttons with:
@@ -20,6 +21,12 @@
   - Hover effects for both icon and phone number
   - Smooth upward movement animation on hover
   - Proper alignment with header buttons
+
+- **Purple Header Element**: Fixed "617 Boston Movers Estimated Quote" element with:
+  - Proper centering using margin: 0 auto
+  - Background width fitting text content (width: fit-content)
+  - Correct display properties for table and td elements
+  - Maintained purple background (#4630d2) only around text
 
 - **Typography**: Maintained original font family while improving sizing and weight
 - **Alignment**: Fixed vertical alignment between left and right header elements
