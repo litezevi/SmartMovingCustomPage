@@ -1,0 +1,5 @@
+твоя задча исправлять именно css в 
+
+/Users/litezevin/Desktop/Projects/Zenpoint/SmartMovingCustomPage/custom.css
+
+ не трогай html!
