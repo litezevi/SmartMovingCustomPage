@@ -553,3 +553,9 @@ span[_ngcontent-ng-c3923634887=""] {
   transform: translateY(-2px) !important;
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12) !important;
 }
+
+div[class*="content"] .card {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
