@@ -536,3 +536,20 @@ td[style*="background-color: rgb(67, 48, 197)"] div {
 span[_ngcontent-ng-c3923634887=""] {
   display: none !important;
 }
+
+.d-flex.flex-column.content.bg-secondary.mb-4.mb-lg-5.box-shadow-high.justify-content-center.align-items-center {
+  border-radius: 16px !important;
+  padding: 32px !important;
+  margin: 24px 0 !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+  border: 1px solid rgba(70, 48, 210, 0.1) !important;
+  backdrop-filter: blur(10px) !important;
+  background: linear-gradient(135deg, #f8fafc 0%, #e1f5fe 100%) !important;
+  transition: all 0.3s ease !important;
+  overflow: hidden !important;
+}
+
+.d-flex.flex-column.content.bg-secondary.mb-4.mb-lg-5.box-shadow-high.justify-content-center.align-items-center:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12) !important;
+}
