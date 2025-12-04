@@ -21,11 +21,15 @@
 5. **Mobile-First**: Responsive design for all devices
 
 ## Component Styling Guidelines
-- **Buttons**: Primary color background, white text, rounded corners
-- **Cards**: Subtle backgrounds, proper spacing, clear borders
-- **Headers**: Bold typography, brand colors, good spacing
+- **Buttons**: Primary color background, white text, rounded corners (20px), gradient effects
+- **Cards**: Gradient backgrounds, rounded corners (12px), shadow effects, left border accents
+- **Headers**: Bold typography, brand colors, good spacing, icon integration
 - **Tables**: Clean rows, alternating colors, clear headers
 - **Banners**: Light background, good contrast, prominent info
+- **Information Sections**: Card-based layout with hover effects, backdrop blur
+- **Policy Sections**: Organized with visual hierarchy, color-coded accents
+- **Warning Notices**: Orange/red accents for important information
+- **Service Lists**: Emoji integration with consistent color scheme
 
 ## Spacing System
 - **Tight**: 4-8px for related elements
