@@ -95,6 +95,12 @@
   max-width: none !important;
   transform: none !important;
   filter: drop-shadow(0 2px 8px rgba(70, 48, 210, 0.2)) !important;
+  transition: all 0.3s ease !important;
+}
+
+.banner--logo .brand:hover img {
+  transform: translateY(-2px) scale(1.05) !important;
+  filter: drop-shadow(0 4px 12px rgba(70, 48, 210, 0.3)) !important;
 }
 
 .banner--logo .brand {
@@ -115,6 +121,12 @@
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
+  transition: all 0.3s ease !important;
+}
+
+.banner--info-container:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12) !important;
 }
 
 .banner--header {
@@ -184,6 +196,12 @@
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
+  transition: all 0.3s ease !important;
+}
+
+.text-end.pt-1.pt-md-0:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12) !important;
 }
 
 .text-end.pt-1.pt-md-0 .banner--body {
@@ -192,6 +210,12 @@
   font-weight: 800 !important;
   color: #4630d2 !important;
   margin-bottom: 16px !important;
+  transition: all 0.3s ease !important;
+}
+
+.text-end.pt-1.pt-md-0:hover .banner--body {
+  transform: scale(1.05) !important;
+  color: #5a42e5 !important;
 }
 
 .text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter {
