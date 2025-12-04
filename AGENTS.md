@@ -9,6 +9,8 @@
 
 4. папку /Users/litezevin/Desktop/Projects/Zenpoint/SmartMovingCustomPage/backup не трогать !!!!!
 
+5. Если говорю html ты должен менять html файл
+
 вот что говорят сами представители компании
 
 This is for those who
