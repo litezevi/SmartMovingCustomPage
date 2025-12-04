@@ -387,18 +387,14 @@ table[style*="background-color: rgb(67, 48, 197)"] {
   width: fit-content !important;
   margin: 0 auto !important;
   display: table !important;
-  border-radius: 8px !important;
-  padding: 0 16px !important;
 }
 
 td[style*="background-color: rgb(67, 48, 197)"] {
   background-color: #4630d2 !important;
   width: fit-content !important;
   margin: 0 auto !important;
-  display: block !important;
+  display: table-cell !important;
   text-align: center !important;
-  border-radius: 8px !important;
-  padding: 0 16px !important;
 }
 
 table[style*="background-color: rgb(67, 48, 197)"] div,
