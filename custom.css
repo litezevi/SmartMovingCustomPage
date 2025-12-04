@@ -532,3 +532,7 @@ td[style*="background-color: rgb(67, 48, 197)"] div {
     width: 100% !important;
   }
 }
+
+span[_ngcontent-ng-c3923634887=""] {
+  display: none !important;
+}
