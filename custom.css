@@ -317,6 +317,11 @@
   backdrop-filter: blur(5px) !important;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
   transition: all 0.3s ease !important;
+  visibility: visible !important;
+  display: block !important;
+  opacity: 1 !important;
+  position: relative !important;
+  z-index: 1 !important;
 }
 
 .your-info:hover {
@@ -352,14 +357,39 @@
   text-transform: uppercase !important;
 }
 
-/* Card content styling */
+/* Fix customer info visibility and alignment */
+.your-info {
+  visibility: visible !important;
+  display: block !important;
+  opacity: 1 !important;
+}
+
+/* Card content styling with proper alignment */
+.your-info,
+.customer-info,
+.salesperson-info {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 8px !important;
+  min-height: 120px !important;
+  justify-content: flex-start !important;
+}
+
 .salesperson-info--name,
 .customer-info--name,
 .location-description {
   color: #334155 !important;
   font-weight: 700 !important;
   font-size: 18px !important;
-  margin-bottom: 4px !important;
+  margin: 0 !important;
+  line-height: 1.3 !important;
+  display: block !important;
+  min-height: 24px !important;
+}
+
+/* Remove br tag spacing in location description */
+.location-description br {
+  display: none !important;
 }
 
 .salesperson-info--phone a,
@@ -369,6 +399,10 @@
   color: #475569 !important;
   font-size: 14px !important;
   font-weight: 600 !important;
+  line-height: 1.3 !important;
+  display: block !important;
+  margin: 0 !important;
+  min-height: 18px !important;
 }
 
 /* Remove default bg-secondary background */
