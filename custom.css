@@ -460,9 +460,26 @@ td[style*="background-color: rgb(67, 48, 197)"] div {
     align-self: flex-start !important;
   }
   
-  /* Add purple border to both origin and destination on mobile */
-  .location {
+  /* Force purple border to BOTH origin and destination on mobile with maximum specificity */
+  .row-info-details .stops-info-container .location {
     border-left: 4px solid #4630d2 !important;
+  }
+  
+  /* Maximum force for origin specifically */
+  .row-info-details .stops-info-container .location:first-child {
+    border-left: 4px solid #4630d2 !important;
+  }
+  
+  /* Maximum force for destination specifically */
+  .row-info-details .stops-info-container .location:last-child {
+    border-left: 4px solid #4630d2 !important;
+  }
+  
+  /* Force with !important and higher specificity */
+  @media (max-width: 768px) {
+    div[class*="location"] {
+      border-left: 4px solid #4630d2 !important;
+    }
   }
   
   /* Fix spacing between origin and destination on mobile */
