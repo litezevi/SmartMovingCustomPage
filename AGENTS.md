@@ -7,6 +7,8 @@
 
 3. Никогда не пиши комментарии в custom.css файле!!!
 
+4. папку /Users/litezevin/Desktop/Projects/Zenpoint/SmartMovingCustomPage/backup не трогать !!!!!
+
 вот что говорят сами представители компании
 
 This is for those who
