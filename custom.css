@@ -326,6 +326,11 @@
   z-index: 1 !important;
 }
 
+.align-items-center.align-items-lg-start.align-items-start.bg-secondary.border-rounded.d-flex.justify-content-between.p-2.your-info {
+  flex: 0 0 240px !important;
+  width: 240px !important;
+}
+
 .your-info:hover {
   transform: translateY(-2px) !important;
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12) !important;
@@ -339,6 +344,8 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
   transition: all 0.3s ease !important;
   margin: 0 8px !important;
+  flex: 0 0 320px !important;
+  width: 320px !important;
 }
 
 .location:hover {
@@ -373,6 +380,11 @@
   justify-content: flex-start !important;
 }
 
+.customer-info {
+  flex: 0 0 240px !important;
+  width: 240px !important;
+}
+
 .salesperson-info--name,
 .customer-info--name,
 .location-description {
@@ -383,6 +395,9 @@
   line-height: 1.3 !important;
   display: block !important;
   min-height: 24px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
 }
 
 .location-description br {
@@ -400,6 +415,9 @@
   display: block !important;
   margin: 8px 0 0 0 !important;
   min-height: 18px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
 }
 
 .bg-secondary {
