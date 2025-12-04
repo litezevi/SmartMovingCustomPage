@@ -383,6 +383,7 @@ table[style*="background-color: rgb(67, 48, 197)"] {
   margin: 0 auto !important;
   display: table !important;
   border-radius: 8px !important;
+  padding: 0 16px !important;
 }
 
 td[style*="background-color: rgb(67, 48, 197)"] {
@@ -392,6 +393,7 @@ td[style*="background-color: rgb(67, 48, 197)"] {
   display: block !important;
   text-align: center !important;
   border-radius: 8px !important;
+  padding: 0 16px !important;
 }
 
 /* Center the content inside purple background */
