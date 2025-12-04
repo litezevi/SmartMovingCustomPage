@@ -344,8 +344,8 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
   transition: all 0.3s ease !important;
   margin: 0 8px !important;
-  flex: 0 0 320px !important;
-  width: 320px !important;
+  flex: 0 0 360px !important;
+  width: 360px !important;
 }
 
 .location:hover {
