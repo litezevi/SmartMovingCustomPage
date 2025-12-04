@@ -387,7 +387,21 @@
 
 .salesperson-info--name,
 .customer-info--name,
-.location-description {
+.location .location-description {
+  color: #334155 !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  margin: 0 !important;
+  line-height: 1.3 !important;
+  display: block !important;
+  min-height: 24px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.salesperson-info--name,
+.customer-info--name {
   color: #334155 !important;
   font-weight: 700 !important;
   font-size: 18px !important;
