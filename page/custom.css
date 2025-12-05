@@ -344,8 +344,11 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
   transition: all 0.3s ease !important;
   margin: 0 8px !important;
-  flex: 0 0 320px !important;
-  width: 320px !important;
+  flex: 1 !important;
+}
+
+.row-info-details {
+  justify-content: center !important;
 }
 
 .location:hover {
