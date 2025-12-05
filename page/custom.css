@@ -558,6 +558,7 @@ span[_ngcontent-ng-c3923634887=""] {
 
 div[class*="content"] .card {
   background: transparent !important;
-  border: none !important;
+  border: 2px solid #e1f5fe !important;
+  border-radius: 12px !important;
   box-shadow: none !important;
 }
