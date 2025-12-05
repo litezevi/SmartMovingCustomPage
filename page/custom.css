@@ -191,7 +191,7 @@
   width: 320px !important;
   height: 200px !important;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
-  border-left: 4px solid #4630d2 !important;
+  border-left: none !important;
   backdrop-filter: blur(5px) !important;
   display: flex !important;
   flex-direction: column !important;
@@ -315,7 +315,7 @@
 .your-info {
   background: rgba(255, 255, 255, 0.8) !important;
   border-radius: 12px !important;
-  border-left: 4px solid #4630d2 !important;
+  border-left: none !important;
   backdrop-filter: blur(5px) !important;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
   transition: all 0.3s ease !important;
@@ -339,7 +339,7 @@
 .location {
   background: rgba(255, 255, 255, 0.8) !important;
   border-radius: 12px !important;
-  border-left: 4px solid #4630d2 !important;
+  border-left: none !important;
   backdrop-filter: blur(5px) !important;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08), -5px 0 0 0 #4630d2 !important;
   transition: all 0.3s ease !important;
@@ -484,20 +484,20 @@ td[style*="background-color: rgb(67, 48, 197)"] div {
   }
   
   .row-info-details .stops-info-container .location {
-    border-left: 4px solid #4630d2 !important;
+    border-left: none !important;
   }
   
   .row-info-details .stops-info-container .location:first-child {
-    border-left: 4px solid #4630d2 !important;
+    border-left: none !important;
   }
   
   .row-info-details .stops-info-container .location:last-child {
-    border-left: 4px solid #4630d2 !important;
+    border-left: none !important;
   }
   
   @media (max-width: 768px) {
     div[class*="location"] {
-      border-left: 4px solid #4630d2 !important;
+      border-left: none !important;
     }
   }
   
