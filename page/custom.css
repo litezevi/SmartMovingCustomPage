@@ -327,8 +327,8 @@
 }
 
 .align-items-center.align-items-lg-start.align-items-start.bg-secondary.border-rounded.d-flex.justify-content-between.p-2.your-info {
-  flex: 0 0 240px !important;
-  width: 240px !important;
+  flex: 1 !important;
+  width: 100% !important;
 }
 
 .your-info:hover {
@@ -384,8 +384,8 @@
 }
 
 .customer-info {
-  flex: 0 0 240px !important;
-  width: 240px !important;
+  flex: 1 !important;
+  width: 100% !important;
 }
 
 .salesperson-info--name,
@@ -469,9 +469,10 @@ td[style*="background-color: rgb(67, 48, 197)"] div {
 }
 
 @media (max-width: 768px) {
-  .salesperson-info {
-    text-align: left !important;
-    align-items: flex-start !important;
+  .your-info {
+    width: 100% !important;
+    flex: 1 !important;
+    margin-bottom: 16px !important;
   }
   
   .salesperson-info--name {
