@@ -191,7 +191,7 @@
   width: 320px !important;
   height: 200px !important;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
-  border-left: none !important;
+  border-left: 4px solid #4630d2 !important;
   backdrop-filter: blur(5px) !important;
   display: flex !important;
   flex-direction: column !important;
@@ -315,7 +315,7 @@
 .your-info {
   background: rgba(255, 255, 255, 0.8) !important;
   border-radius: 12px !important;
-  border-left: none !important;
+  border-left: 4px solid #4630d2 !important;
   backdrop-filter: blur(5px) !important;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
   transition: all 0.3s ease !important;
