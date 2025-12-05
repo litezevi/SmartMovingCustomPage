@@ -373,9 +373,7 @@
   opacity: 1 !important;
 }
 
-.your-info,
-.customer-info,
-.salesperson-info {
+.customer-info {
   display: flex !important;
   flex-direction: column !important;
   gap: 8px !important;
