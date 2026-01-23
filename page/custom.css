@@ -27,16 +27,6 @@
   background: #f97316 !important;
   border-color: #f97316 !important;
   box-shadow: 0 2px 4px rgba(249, 115, 22, 0.3) !important;
-  font-size: 0 !important;
-}
-
-.header-buttons > button span {
-  display: none !important;
-}
-
-.header-buttons > button::before {
-  content: "BOOK NOW" !important;
-  font-size: 14.5px !important;
 }
 
 .call-us {
@@ -457,6 +447,31 @@
   background-color: transparent !important;
 }
 
+table[style*="background-color: rgb(67, 48, 197)"] {
+  background-color: #4630d2 !important;
+  width: fit-content !important;
+  margin: 0 auto !important;
+  display: table !important;
+}
+
+td[style*="background-color: rgb(67, 48, 197)"] {
+  background-color: #4630d2 !important;
+  width: fit-content !important;
+  margin: 0 auto !important;
+  display: table-cell !important;
+  text-align: center !important;
+}
+
+table[style*="background-color: rgb(67, 48, 197)"] div,
+td[style*="background-color: rgb(67, 48, 197)"] div {
+  text-align: center !important;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 @media (max-width: 768px) {
   .your-info {
     width: 100% !important;
@@ -524,10 +539,10 @@
   .salesperson-info {
     width: 100% !important;
   }
+}
 
-  div[class*="location"] {
-    border-left: none !important;
-  }
+span[_ngcontent-ng-c3923634887=""] {
+  display: none !important;
 }
 
 .d-flex.flex-column.content.bg-secondary.mb-4.mb-lg-5.box-shadow-high.justify-content-center.align-items-center {
