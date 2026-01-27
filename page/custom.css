@@ -28,6 +28,7 @@
   border-color: #f97316 !important;
   box-shadow: 0 2px 4px rgba(249, 115, 22, 0.3) !important;
   font-size: 0 !important;
+  white-space: nowrap !important;
 }
 
 .header-buttons > button span {
@@ -37,6 +38,7 @@
 .header-buttons > button::before {
   content: "BOOK NOW" !important;
   font-size: 14.5px !important;
+  white-space: nowrap !important;
 }
 
 .app-header {
