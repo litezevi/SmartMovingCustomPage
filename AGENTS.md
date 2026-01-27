@@ -1,71 +1,55 @@
-Смотри наша задача в этом проекте испраивть page а именно страницу moving компании у них один page который нужно полностью заредизайнить
+Look, our task in this project is to fix the **page**, specifically the **moving company page**.
+They have a single page that needs to be **completely redesigned**.
 
+1. The main file is located at:
+   `/Users/litezevin/Desktop/Projects/Zenpoint/SmartMovingCustomPage/source.html`
 
-1. Главыный файл находится в /Users/litezevin/Desktop/Projects/Zenpoint/SmartMovingCustomPage/source.html
+2. However, we only have access to **CSS**, meaning we can **only modify CSS**.
 
-2. Но у нас доступен только css то есть мы можем только его менять
+3. **Never write comments** in the `custom.css` file!!!
 
-3. Никогда не пиши комментарии в custom.css файле!!!
+4. **Do not touch** the folder:
+   `/Users/litezevin/Desktop/Projects/Zenpoint/SmartMovingCustomPage/backup` !!!!!
 
-4. папку /Users/litezevin/Desktop/Projects/Zenpoint/SmartMovingCustomPage/backup не трогать !!!!!
+5. If I say **HTML**, you must change the **HTML file**.
 
-5. Если говорю html ты должен менять html файл
+---
 
-вот что говорят сами представители компании
+Here is what the company representatives themselves say:
 
-This is for those who
-comfortable with CSS.
-You can customize styles
-Colorlikeifonts, colors, and
-layout. If you're not sure
-how to use CSS, we
-recommend getting help
-from a web designer or
-developer.
+> This is for those who are comfortable with CSS.
+> You can customize styles like fonts, colors, and layout.
+> If you're not sure how to use CSS, we recommend getting help from a web designer or developer.
+>
+> Edit Draft CSS
+> Add or edit your custom CSS below. Use the “Preview” button to see how it looks before making it live.
 
-edit Draft CSS
-Add or edit your custom CSS below. Use the “Preview” button to see how it looks before making it live.
+So, there is a **CSS input field** where we can paste our custom CSS file.
 
-то есть есть поле css куда мы можем вставить свой css файл!
+---
 
-3. Цвета вот наши цвета page
+### Brand Colors for the Page
 
-Customer Portal & Storage Branding
-info
-Button Color *
-info
-#
-4630d2
-Button Text Color *
-info
-#
-ffffff
-Title Text Color *
-info
-#
-4630d2
-Banner Color *
-info
-#
-e1f5fe
-Banner Text Color *
-info
-#
-000
-Background Color *
-info
-#
-e1f5fe
+**Customer Portal & Storage Branding**
 
+* Button Color: `#4630d2`
+* Button Text Color: `#ffffff`
+* Title Text Color: `#4630d2`
+* Banner Color: `#e1f5fe`
+* Banner Text Color: `#000000`
+* Background Color: `#e1f5fe`
 
-само лого тоже фиолетовое 
+The logo itself is also **purple**.
 
+---
 
-сам css будет находиться в файле /Users/litezevin/Desktop/Projects/Zenpoint/SmartMovingCustomPage/custom.css
+The custom CSS will be located in the file:
+`/Users/litezevin/Desktop/Projects/Zenpoint/SmartMovingCustomPage/custom.css`
 
+### Final Goal
 
-мы должны дойти до иделаа цель: page именно этой компании должен отличаться  от других компаний
-
+We must reach **perfection**.
+The goal is that **this company’s page clearly stands out and looks different from other companies’ pages**.
 
 ---
 

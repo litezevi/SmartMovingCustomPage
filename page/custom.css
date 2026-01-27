@@ -445,10 +445,8 @@
     border-left: none !important;
   }
   
-  @media (max-width: 768px) {
-    div[class*="location"] {
-      border-left: none !important;
-    }
+  div[class*="location"] {
+    border-left: none !important;
   }
   
   .stops-container {
@@ -515,4 +513,33 @@ div[class*="content"] .card {
 
 sm-footer {
   display: none !important;
+}
+
+/* Make price table bold and visible */
+.charges-table,
+.charges-table * {
+  font-weight: 900 !important;
+}
+
+.charges-table th {
+  background: #4630d2 !important;
+  color: white !important;
+  padding: 12px !important;
+}
+
+.charges-table td {
+  padding: 10px !important;
+}
+
+.charges-table .text-end {
+  color: #4630d2 !important;
+}
+
+.charges-card,
+.charges-card * {
+  font-weight: 900 !important;
+}
+
+.charges-card h2 {
+  color: #4630d2 !important;
 }
