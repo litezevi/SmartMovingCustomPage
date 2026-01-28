@@ -1,0 +1,22 @@
+[data-test-id="signEstimateHeaderButton"] {
+  font-size: 0; /* hides the original text */
+}
+
+[data-test-id="signEstimateHeaderButton"]::after {
+  content: "Book Now";
+  font-size: 16px; /* restore readable text size */
+}
+
+[data-test-id="viewEstimateHeaderButton"] {
+  font-size: 0; /* hides the original text */
+}
+
+[data-test-id="viewEstimateHeaderButton"]::after {
+  content: "View Booking";
+  font-size: 16px; /* restore readable text size */
+}
+
+body .banner--footer.sm-text-white {
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+}
