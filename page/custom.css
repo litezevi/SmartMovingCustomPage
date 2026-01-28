@@ -543,3 +543,17 @@ sm-footer {
 .charges-card h2 {
   color: #4630d2 !important;
 }
+
+.mb-1 {
+    font-weight: 900;
+}
+
+@media (max-width: 767.98px) {
+    .banner-flex[_ngcontent-ng-c649421283] .brand[_ngcontent-ng-c649421283] {
+        margin-bottom: 20px;
+    }
+}
+
+#isPasted {
+ margin-right: 3px;
+}
