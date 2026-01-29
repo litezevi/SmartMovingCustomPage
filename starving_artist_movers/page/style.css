@@ -168,27 +168,27 @@ body .banner--footer.sm-text-white {
     box-shadow 0.6s ease,
     transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
-
 .row-info.row-info-details > .your-info:hover,
 .row-info.row-info-details .stops-container > .location:hover,
 .row-info.row-info-details .salesperson-info:hover {
 
-  /* микро-движение */
-  transform: translateY(-0.5px);
+  /* стало заметнее, но безопасно */
+  transform: translateY(-1px);
 
-  /* мягкая тень, НЕ агрессивная */
+  /* глубже, но мягко */
   box-shadow:
-    0 6px 16px rgba(42, 80, 132, 0.16),
-    0 12px 28px rgba(15, 23, 42, 0.06) !important;
+    0 8px 20px rgba(42, 80, 132, 0.22),
+    0 16px 36px rgba(15, 23, 42, 0.08) !important;
 
-  /* лёгкая фирменная подсветка */
+  /* фон чуть выразительнее */
   background: linear-gradient(
     135deg,
-    rgba(42, 80, 132, 0.05) 0%,
-    rgba(95, 134, 179, 0.07) 45%,
-    rgba(207, 231, 246, 0.15) 100%
+    rgba(42, 80, 132, 0.07) 0%,
+    rgba(95, 134, 179, 0.10) 45%,
+    rgba(207, 231, 246, 0.22) 100%
   ) !important;
 }
+
 
 
 .d-flex.flex-md-row.flex-column.w-100.justify-content-between.align-items-center.sm-text-white-600 {
