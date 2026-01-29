@@ -33,6 +33,7 @@
     background: linear-gradient(135deg, #4630d2 0%, #5a42e5 100%);
     color: #ffffff;
   }
+  
   /* =========================================
      TOP 4 INFO CARDS — spacing & polish only
      ========================================= */
@@ -168,4 +169,42 @@
       0 4px 10px rgba(239, 68, 68, 0.12),
       0 10px 24px rgba(15, 23, 42, 0.08) !important;
   }
+  .d-flex.flex-md-row.flex-column.w-100.justify-content-between.align-items-center.sm-text-white-600 {
+    background: linear-gradient(
+    135deg,
+    #2A5084 0%,
+    #5f86b3 45%,
+    #cfe7f6 100%
+  );
+    border-radius: 16px !important;
+    padding: 32px !important;
+    margin: 24px 0 !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+    backdrop-filter: blur(10px) !important;
+  }
+  
+  
+  /* Price card — details text color */
+  .text-end.pt-1.pt-md-0 .sm-font-weight-lighter {
+    color: #2a5084 !important;
+  }
+  .text-end.pt-1.pt-md-0 .sm-font-weight-lighter span {
+    color: #2a5084 !important;
+    font-weight: 700 !important;
+  }
+  
+  .text-end.pt-1.pt-md-0 .banner--body > div {
+    color: #2a5084 !important;
+    letter-spacing: -0.3px;
+  }
+  .content.bg-secondary.box-shadow-high {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(42, 80, 132, 0.12);
+  }
+  
+  .card.p-0 {
+    border-radius: 16px;
+  }
+  
   
