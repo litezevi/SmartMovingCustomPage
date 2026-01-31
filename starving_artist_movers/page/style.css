@@ -462,14 +462,7 @@ background: linear-gradient(
   font-size: 13px !important;
   font-weight: 800 !important;
 }
-/* Estimate type — Estimate left, Non-Binding centered */
-.text-end.pt-1.pt-md-0 
-.banner--footer 
-.sm-font-weight-lighter:nth-child(5) {
-  display: flex !important;
-  align-items: center !important;
-
-}
+/* Estimate type aligns with other items - removed special overrides */
 /* 1️⃣ Starting on / Arrival window — единый цвет */
 .banner--info-container .banner--footer,
 .banner--info-container .banner--footer * {
@@ -537,13 +530,7 @@ sm-footer footer {
   color: #d97706 !important; /* цвет текста оставляем */
 }
 
-/* Estimate type — Non-Binding + Estimate справа */
-.text-end.pt-1.pt-md-0 
-.banner--footer 
-.sm-font-weight-lighter:nth-child(5) {
-  justify-content: flex-end !important;
-  text-align: right !important;
-}
+
 
 
 
