@@ -65,13 +65,6 @@ body .banner--footer.sm-text-white {
   box-shadow: 0 14px 32px rgba(42, 80, 132, 0.28) !important;
 }
 
-/* mobile spacing */
-@media (max-width: 768px) {
-  .row-info.row-info-details {
-    gap: 16px !important;
-  }
-}
-
 /* spacing for Origin card (right margin) */
 .row-info.row-info-details .stops-container > .location {
   margin-right: 20px !important;
@@ -218,14 +211,6 @@ body .banner--footer.sm-text-white {
 
 
 /* Price card — details text color */
-.text-end.pt-1.pt-md-0 .sm-font-weight-lighter {
-  color: #2a5084 !important;
-}
-.text-end.pt-1.pt-md-0 .sm-font-weight-lighter span {
-  color: #2a5084 !important;
-  font-weight: 700 !important;
-}
-
 .text-end.pt-1.pt-md-0 .banner--body > div {
   color: #2a5084 !important;
   letter-spacing: -0.3px;
@@ -266,14 +251,10 @@ background: linear-gradient(
 .charges-table * {
   color: #2A5084 !important;
 }
+
 .charges-table th {
   font-weight: 900 !important;
   color: #2A5084 !important;
-  font-size: 16px !important;
-}
-/* заголовки таблицы */
-.charges-table th {
-  font-weight: 900 !important;
   font-size: 16px !important;
 }
 
@@ -306,7 +287,8 @@ background: linear-gradient(
 .valuation-options small,
 .valuation-cost small {
   font-size: 14px !important;
-  color: #1f2937 !important;
+  color: #2a5084 !important;
+  letter-spacing: 0.2px;
 }
 
 /* значения (--, $0.00 и т.д.) */
@@ -315,11 +297,6 @@ background: linear-gradient(
   font-weight: 900 !important;
   font-size: 16px !important;
   color: #2a5084 !important;
-}
-.valuation-options small,
-.valuation-cost small {
-  color: #2a5084 !important;
-  letter-spacing: 0.2px;
 }
 
 
@@ -391,19 +368,6 @@ background: linear-gradient(
   line-height: 1.4 !important;
 }
 
-/* Non-Binding — заметный статус */
-.text-end.pt-1.pt-md-0 .sm-font-weight-lighter span {
-  font-weight: 800 !important;
-  letter-spacing: 0.3px;
-}
-
-/* по желанию — лёгкий бейдж-эффект */
-.text-end.pt-1.pt-md-0 .sm-font-weight-lighter span {
-  background: rgba(217, 119, 6, 0.12);
-  padding: 2px 8px;
-  border-radius: 999px;
-}
-
 /* Estimate type — use flex to keep Non-Binding and Estimate on same line */
 .text-end.pt-1.pt-md-0
 .banner--footer
@@ -415,48 +379,54 @@ background: linear-gradient(
   margin-left: 50px !important;
 }
 
-@media (max-width: 768px) {
-  .banner--info-container {
-    margin-left: 0 !important;
-  }
-}
-
+/* Labels based on custom.css example - each has full properties */
 .text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter:nth-child(1)::before {
   content: "Move size:" !important;
+  font-weight: 600 !important;
+  color: #334155 !important;
+  margin-right: 8px !important;
 }
 
 .text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter:nth-child(2)::before {
   content: "Volume:" !important;
+  font-weight: 600 !important;
+  color: #334155 !important;
+  margin-right: 8px !important;
 }
 
 .text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter:nth-child(3)::before {
   content: "Minimum:" !important;
+  font-weight: 600 !important;
+  color: #334155 !important;
+  margin-right: 8px !important;
 }
 
 .text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter:nth-child(4)::before {
   content: "Crew:" !important;
+  font-weight: 600 !important;
+  color: #334155 !important;
+  margin-right: 8px !important;
 }
 
 .text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter:nth-child(5)::before {
   content: "Estimate type:" !important;
+  font-weight: 600 !important;
+  color: #334155 !important;
+  margin-right: 8px !important;
 }
 
 .text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter:nth-child(6)::before {
   content: "Protection:" !important;
+  font-weight: 600 !important;
+  color: #334155 !important;
+  margin-right: 8px !important;
 }
+
 /* LEFT LABEL COLUMN — clean & aligned */
 .text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter {
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
-}
-
-/* labels on the left */
-.text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter::before {
-  content: "Estimate type:" !important;
-  font-weight: 600 !important;
-  color: #475569 !important;
-  margin-right: 8px !important;
 }
 /* Estimate type aligns with other items - removed special overrides */
 /* 1️⃣ Starting on / Arrival window — единый цвет */
@@ -524,6 +494,82 @@ sm-footer footer {
   font-size: 13px !important;
   font-weight: 800 !important;
   color: #d97706 !important; /* цвет текста оставляем */
+}
+
+/* =========================================
+   TABLET STYLES — @media (max-width: 950px)
+   ========================================= */
+
+@media (max-width: 950px) {
+  /* Banner — Stack vertical */
+  .d-flex.flex-md-row.flex-column.w-100.justify-content-between.align-items-center.sm-text-white-600 {
+    flex-direction: column !important;
+    padding: 24px !important;
+    margin: 20px 0 !important;
+  }
+
+  /* Remove left margin to stack properly */
+  .banner--info-container {
+    margin-left: 0 !important;
+    margin-bottom: 20px !important;
+    width: 100% !important;
+  }
+
+  /* Price card — Full width below */
+  .text-end.pt-1.pt-md-0 {
+    margin-top: 20px !important;
+    padding: 18px 20px !important;
+    min-width: 100% !important;
+    border-radius: 12px !important;
+  }
+
+  /* Price — Slightly reduced */
+  .text-end.pt-1.pt-md-0 .banner--body > div {
+    font-size: 26px !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* Price details — Slightly reduced */
+  .text-end.pt-1.pt-md-0 .sm-font-weight-lighter {
+    font-size: 12.5px !important;
+    line-height: 1.35 !important;
+  }
+
+  /* Banner text — Slightly reduced */
+  .banner--info-container .banner--body {
+    font-size: 17px !important;
+    margin: 16px 0 !important;
+  }
+
+  .banner--info-container .banner--header .d-flex {
+    font-size: 19px !important;
+    margin-bottom: 9px !important;
+  }
+
+  .banner--info-container .badge.sm-bg-success {
+    font-size: 11px !important;
+    padding: 5px 12px !important;
+  }
+
+  /* Info cards — Slightly tighter */
+  .row-info.row-info-details {
+    gap: 16px !important;
+  }
+
+  .row-info.row-info-details > .your-info,
+  .row-info.row-info-details .stops-container > .location,
+  .customer-info,
+  .location {
+    padding: 16px 18px !important;
+  }
+
+  /* Card text — Slightly reduced */
+  .salesperson-info--name,
+  .customer-info--name,
+  .location-description {
+    font-size: 17px !important;
+    line-height: 1.35 !important;
+  }
 }
 
 
