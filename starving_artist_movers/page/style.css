@@ -404,6 +404,13 @@ background: linear-gradient(
   border-radius: 999px;
 }
 
+/* Estimate type — use flex to keep Non-Binding and Estimate on same line */
+.text-end.pt-1.pt-md-0
+.banner--footer
+.sm-font-weight-lighter:nth-child(5) {
+  white-space: nowrap !important;
+}
+
 .banner--info-container {
   margin-left: 50px !important;
 }
@@ -439,28 +446,17 @@ background: linear-gradient(
 }
 /* LEFT LABEL COLUMN — clean & aligned */
 .text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter {
-  display: grid !important;
-  grid-template-columns: 140px 1fr !important;
+  display: flex !important;
+  justify-content: space-between !important;
   align-items: center !important;
-  column-gap: 12px !important;
 }
 
 /* labels on the left */
 .text-end.pt-1.pt-md-0 .banner--footer .sm-font-weight-lighter::before {
+  content: "Estimate type:" !important;
   font-weight: 600 !important;
   color: #475569 !important;
-  text-align: left !important;
-}
-
-/* Non-Binding badge — auto width */
-.text-end.pt-1.pt-md-0 .sm-font-weight-lighter span {
-  display: inline-flex !important;
-  align-items: center !important;
-
-  width: fit-content !important;   /* 🔑 по содержимому */
-  max-width: max-content !important;
-  font-size: 13px !important;
-  font-weight: 800 !important;
+  margin-right: 8px !important;
 }
 /* Estimate type aligns with other items - removed special overrides */
 /* 1️⃣ Starting on / Arrival window — единый цвет */
