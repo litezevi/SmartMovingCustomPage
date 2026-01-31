@@ -393,7 +393,6 @@ background: linear-gradient(
 
 /* Non-Binding — заметный статус */
 .text-end.pt-1.pt-md-0 .sm-font-weight-lighter span {
-
   font-weight: 800 !important;
   letter-spacing: 0.3px;
 }
@@ -507,10 +506,12 @@ padding-right: 0px;
   font-size: 14px !important;      
   color: #2A5084 !important;
 }
-.app-table tr:last-child td {
-  font-size: 16px !important;   /* больше */
-  font-weight: 700 !important;  /* жирнее */
+.app-table tr:has(td.fw-bold) td {
+  font-size: 16px !important;
+  font-weight: 700 !important;
 }
+
+
 
 sm-footer footer {
   display: none !important;
@@ -543,14 +544,6 @@ sm-footer footer {
   justify-content: flex-end !important;
   text-align: right !important;
 }
-
-
-.text-end.pt-1.pt-md-0
-.banner--footer
-.sm-font-weight-lighter:nth-child(5) span {
-  margin-left: 90px !important;
-}
-
 
 
 
