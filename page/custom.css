@@ -557,3 +557,7 @@ sm-footer {
 .call-us--number  {
   margin-top: 5px;
  }
+
+.call-us--number a {
+  font-weight: 700 !important;
+}
